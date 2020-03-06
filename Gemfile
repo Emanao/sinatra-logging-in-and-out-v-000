@@ -2,7 +2,6 @@ source 'http://rubygems.org'
 
 
 gem 'activerecord','4.2', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 # gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 gem 'database_cleaner-active_record'
 
@@ -12,6 +11,7 @@ gem 'sqlite3'
 gem 'thin'
 gem 'shotgun'
 gem 'sinatra'
+gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'pry'
 
 group :test do
